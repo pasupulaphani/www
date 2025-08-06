@@ -3,102 +3,408 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phaninder's Portfolio</title>
+    <title>Phaninder - Software Engineer & Problem Solver</title>
+    <meta name="description" content="Phaninder's portfolio - Software Engineer specializing in computer vision, blockchain, and innovative solutions">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Phaninder's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Phaninder</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <!-- Content will be added here from markdown files -->
-        </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Phaninder</span>
+                    </h1>
+                    <p class="hero-subtitle">Software Engineer & Problem Solver</p>
+                    <p class="hero-description">
+                        I build innovative solutions using cutting-edge technologies like computer vision, 
+                        blockchain, and AI. Passionate about creating sustainable products that make a difference.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <img src="images/profile.jpg" alt="Phaninder" class="profile-image">
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="--delay: 0s">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 1s">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 2s">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-        <section id="resume">
-            <h2>Resume</h2>
-            <!-- Content will be added here from markdown files -->
-        </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a quick learner with a passion for solving complex problems and taking on challenging tasks. 
+                        I have a proven ability to form and motivate teams, which has led to success in numerous hackathons 
+                        and innovative projects.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>Multiple Hackathon Winner</h4>
+                                <p>Won numerous national-level programming contests and hackathons</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Startup Experience</h4>
+                                <p>Worked with multiple startups, building scalable solutions</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4>Global Perspective</h4>
+                                <p>Traveled extensively, experiencing different cultures and ways of life</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Computer Vision</span>
+                            <span class="skill-tag">Blockchain</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">AI/ML</span>
+                            <span class="skill-tag">Web Development</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Interests</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Cognitive Science</span>
+                            <span class="skill-tag">Legal Tech</span>
+                            <span class="skill-tag">Bioinformatics</span>
+                            <span class="skill-tag">Cloud Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="achievements">
-            <h2>Achievements</h2>
-            <!-- Content will be added here from markdown files -->
-        </section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Pearlshare Ltd</h3>
+                            <span class="timeline-duration">1 year • London</span>
+                        </div>
+                        <p class="timeline-role">Software Engineer (Startup)</p>
+                        <p class="timeline-description">
+                            Built personalized travel guides with mobile web platform. Achieved >15% organic growth 
+                            in new guide creations and >20% growth in monthly users, securing new deals with major travel companies.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Travel Tech</span>
+                            <span class="tag">Mobile Web</span>
+                            <span class="tag">Growth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Openbet Ltd</h3>
+                            <span class="timeline-duration">4.5 years • London</span>
+                        </div>
+                        <p class="timeline-role">Software Engineer</p>
+                        <p class="timeline-description">
+                            Scaled large-scale commercial betting solutions, working with high-traffic systems 
+                            and complex business logic.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Scalability</span>
+                            <span class="tag">Enterprise</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Peekabu Ltd</h3>
+                            <span class="timeline-duration">3 months • Edinburgh</span>
+                        </div>
+                        <p class="timeline-role">Computer Vision Engineer (Startup)</p>
+                        <p class="timeline-description">
+                            Built motion control and pattern recognition products from scratch using computer vision 
+                            technologies. Developed augmented reality games showcasing platform potential.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">AR/VR</span>
+                            <span class="tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Microsoft Innovation Center</h3>
+                            <span class="timeline-duration">6 months • India</span>
+                        </div>
+                        <p class="timeline-role">Computer Vision Developer</p>
+                        <p class="timeline-description">
+                            Built computer vision applications, gaining experience with Microsoft's technology stack 
+                            and enterprise development practices.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Microsoft</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Enterprise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: phaninder10@example.com</p>
-            <!-- Add social media links here -->
-        </section>
-    </main>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my notable work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/travel-app.png" alt="Pearlshare Travel Platform" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pearlshare Travel Platform</h3>
+                        <p class="project-description">
+                            Mobile web travel guide builder that achieved significant user growth and secured 
+                            partnerships with major travel companies.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Travel Tech</span>
+                            <span class="tag">Mobile Web</span>
+                            <span class="tag">Growth Hacking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/computer-vision.jpg" alt="Motion Control Platform" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Motion Control Platform</h3>
+                        <p class="project-description">
+                            Advanced computer vision platform for motion control and pattern recognition, 
+                            featuring augmented reality games.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">AR/VR</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=B2dsHYQhhm0&feature=youtu.be&t=53s" class="project-link">
+                                <i class="fab fa-youtube"></i>
+                                Watch Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">YouTube Ad-Blocker</h3>
+                        <p class="project-description">
+                            Chrome extension that intelligently blocks YouTube advertisements by interrupting 
+                            the ad stream using YouTube's internal API.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Chrome Extension</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API Hacking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://chrome.google.com/webstore/detail/adblock-youtube/nlpakdfcpcjfhkonekdojjpnkaaododp" class="project-link">
+                                <i class="fab fa-chrome"></i>
+                                Chrome Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/blockchain.jpg" alt="Blockchain Micropayments" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blockchain Micropayments</h3>
+                        <p class="project-description">
+                            Winning hackathon project for micropayment system on blockchain, invited to 
+                            FinDEVr conferences in London and San Francisco.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Blockchain</span>
+                            <span class="tag">FinTech</span>
+                            <span class="tag">Hackathon Winner</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=U02zswLvrBE" class="project-link">
+                                <i class="fab fa-youtube"></i>
+                                Watch Pitch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Phaninder. All rights reserved.</p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to work together or just want to chat?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>phaninder10@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/phaninder10/" target="_blank">linkedin.com/in/phaninder10</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>London, UK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Interested in working together?</h3>
+                    <p>I'm always open to discussing new opportunities, innovative projects, or just having a chat about technology and entrepreneurship.</p>
+                    <a href="mailto:phaninder10@example.com" class="btn btn-primary">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Phaninder. Built with passion and code.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/phaninder10/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/pasupulaphani" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-            <p>Hi, my name is Phaninder, but you can call me Phani. I've worked in various industries and technologies, and I take pleasure in solving problems. I believe a startup can happen anytime, whether it's fixing a daily problem or aiming for something as ambitious as going to Mars. I'm motivated to solve problems when I encounter them or to help anyone who is working on solutions.</p>
-            <p>I'm a quick learner and eager to take on challenging tasks. I approach problems with sensible solutions and have a proven ability to form and motivate teams, leading to success in many hackathons.</p>
-            <p>A random fact about me: I once said no to a promotion to work on an interesting project with uncertainty, demonstrating my passion for impactful work.</p>
-            <p>I was an active participant in university event organizations, serving as a key member of the fundraising and marketing team for my university's cultural and technical fest in India. Our team of two successfully secured a gold sponsor.</p>
-            <p>I've also won many national-level programming and technical contests in India.</p>
-            <p>I travel frequently, often hitchhiking and couchsurfing, as I love meeting new people and experiencing different ways of life. I've worked for travel-based startups like Bubbloapp and avotravel.com, and in 2016, I worked for Pearlshare.com, building travel guides.</p>
-
-
-
-
-            <h3>Work Experience</h3>
-            <ul>
-                <li><strong>Pearlshare Ltd (startup)</strong> - London (1 year)
-                    <ul>
-                        <li>Built personalized travel guides.</li>
-                    </ul>
-                </li>
-                <li><strong>Openbet Ltd</strong> - London (4.5 years)
-                    <ul>
-                        <li>Scaled large scale commercial betting solutions.</li>
-                    </ul>
-                </li>
-                <li><strong>Peekabu Ltd (startup)</strong> - Edinburgh (3 months)
-                    <ul>
-                        <li>Built motion control and pattern recognition products.</li>
-                    </ul>
-                </li>
-                <li><strong>Microsoft Innovation Center</strong> - India (6 months)
-                    <ul>
-                        <li>Built computer vision applications.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h3>Education</h3>
-            <p>Details to be extracted from the markdown files or provided by the user.</p>
-
-
-
-
-            <h3>Key Projects & Achievements</h3>
-            <ul>
-                <li><strong>Pearlshare.com Mobile Web Platform:</strong> Shipped a mobile web travel guide builder, leading to >15% organic growth in new guide creations and >20% growth in monthly new users. This also increased iOS downloads and reduced customer retention, securing new deals with major travel companies.</li>
-                <li><strong>Peekabu Ltd Motion Control Platform:</strong> Built a platform for motion control solutions from scratch based on research papers, utilizing computer vision technologies. Developed augmented reality games to showcase the platform's potential.</li>
-                <li><strong>YouTube Ad-Blocker:</strong> Developed a Chrome plugin to block YouTube advertisements by interrupting the ad stream, demonstrating a unique approach to problem-solving.</li>
-                <li><strong>Blockchain Micropayment System:</strong> Mentored a team at a Blockchain hackathon to develop a micropayment system, which won the competition and led to invitations to FinDEVr 16 London and FinDEVr 16 San Francisco.</li>
-                <li><strong>National Level Programming/Technical Contests:</strong> Won numerous national-level programming and technical contests in India.</li>
-                <li><strong>University Event Organizations:</strong> Key member of fundraising and marketing team for university cultural and technical fest, securing a gold sponsor.</li>
-            </ul>
-
 
